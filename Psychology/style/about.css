@@ -1,0 +1,140 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+}
+
+.about-thum{
+    padding: 3% 5%;
+    background-color: rgb(238, 238, 238);
+}
+
+.about-thum h4{
+    font-size: 20px;
+    font-weight: 400;
+}
+.about-thum h6{
+    font-size: 14px;
+    font-weight: 400;
+}
+.about-thum h6 span{
+    color: rgb(156, 156, 156);
+}
+
+.about{
+    padding: 7% 13%;
+    width: 100%;
+}
+.about h1{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+.about h5{
+    border: 2px solid #0fb8cd;
+    width: 5%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.about-img{
+    background-color: #e3ca94;
+}
+
+.about-con{
+    padding-top: 6%;
+}
+
+.about-text{
+    padding-left: 3% !important;
+}
+.about-text h1{
+    font-size: 35px;
+    text-align: start;
+}
+
+.about-text p{
+    font-size: 16px;
+    padding: 30px 0;
+    color: #666666;
+}
+
+.about-text h4{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.about-txt-i{
+    display: flex;
+    column-gap: 30px;
+    padding: 7px 0 0 15px;
+}
+.about-txt-i i{
+    color: #e3ca94;
+    transition: 0.5s;
+}
+.about-txt-i i:hover{
+    color:#666666;
+}
+
+.about-text img{
+    padding-top: 50px;
+}
+/* ==================numbers==================== */
+
+.numbers{
+    padding: 6% 5%;
+    width: 100%;
+    margin: 0%;
+    background-color: #0fb8cd;
+    color: white;
+
+}
+.medical-number{
+    justify-content: center;
+}
+.count-1,.count-2,.count-3{
+    text-align: center;
+}
+
+.count-1 i,.count-2 i,.count-3 i{
+    font-size: 35px;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 3%;
+    /* border-radius: 50% 50% 50% 0; */
+    transition: 0.5s;
+    /* transform: rotate(-45deg); */
+}
+
+
+.count-1 h1,.count-2 h1,.count-3 h1{
+    font-size: 50px;
+    font-weight: 700;
+    padding-top: 25px;
+    transition: 0.5s;
+}
+
+
+.count-1 h5,.count-2 h5,.count-3 h5{
+    border: 2px solid #ffffff;
+    width: 10%;
+    margin: auto;
+    transition: 0.5s;
+}
+.count-1 h5:hover,.count-2 h5:hover,.count-3 h5:hover{
+    width: 18%;
+}
+
+.count-1 h4,.count-2 h4,.count-3 h4{
+    font-size: 18px;
+    font-weight: 700;
+    padding-top: 25px;
+}
+
+
+.count-1,.count-2{
+    border-right: 1px solid rgba(255, 255, 255, 0.205);
+}
+
+/* ================================================================= */
